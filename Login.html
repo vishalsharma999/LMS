@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    html{   
+        font-family:'ubuntu';
+    }
+    .box-1{
+        width: 100%;
+        height: 740px;
+        border: 2px solid black;
+        background-image: url(loooggggnn.jpg);
+        background-size: cover;
+
+    }
+
+    .box-2{
+        border-radius: 20px;
+        background-image:url(lofgg.jpg);
+        /* background-image: url(lon.jpeg); */
+        /* background-color: white; */
+        background-size: cover;
+        margin-left: 57%;
+        margin-top: 90px;
+        align-items: center;
+        width:25%;
+        height: 500px;
+
+    }
+    h1{
+
+        font-size: 20px;
+        margin-left: 40%;
+
+    }
+    .nav1{
+        margin-top:30px;
+    }
+   
+    .search1{
+        margin-top: 30px
+    }
+    ::placeholder{
+        padding:15px;
+    }
+    .search2{
+        margin-top: 20px;
+    }
+    label{
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    input{
+        margin-top: 5px;
+        border-radius: 5px;
+        margin-left: 30px;
+        width:300px;
+        height: 35px;
+        border: 2px solid rgb(166, 183, 182);
+    }
+    button{
+        color: white;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size: 16px;
+        width: 305px;
+        height: 35px;
+        border-radius: 20px;
+        border: solid rgb(64,44,242);
+        background-color:rgb(64,44,242);
+    }
+    button:hover{
+        background-color: blueviolet;
+        color:bisque;
+    }
+    
+    pre{
+        margin-left: 50px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    /* .nav1 button{
+        color: black;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size: 15px;
+        width: 305px;
+        height: 35px;
+        border-radius: 20px;
+        border: solid rgb(222, 210, 210);
+        background-color:rgb(255, 255, 255);
+
+    } */
+    /* button:hover{
+        background-color: rgb(16, 25, 103)(127, 15, 15);
+        color: red;
+    } */
+    .reset{
+        display: flex;
+        color: black;
+        text-decoration: none;
+        margin-top: 10px;
+        margin-left: 32px;
+    }
+    a{
+
+        font-size:16px;
+        text-decoration: none;
+    }
+    h3{
+        margin-left: 30px;
+    }
+    .sign{
+        display: flex;
+    }
+    h5{
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    h5{
+        margin-left: 125px;
+    
+    }
+    /* $white: #fff; 
+    $google-blue: #4285f4;
+    $button-active-blue: #1669F2; */
+
+    .btn {
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 305px;
+    height: 42px;
+    background-color: $google-blue;
+    border-radius: 20px;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+    }
+     /* .google-icon-wrapper {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: $white;
+     } */
+    .google-icon {
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 11px;
+    width: 22px;
+    height: 22px;
+    }
+    h6{
+    margin-top: 20px;
+    padding-top:10px;
+    font-size: 17px;
+    margin-left: 90px;
+    }
+    /* &:hover {
+    box-shadow: 0 0 6px $google-blue;
+    }
+    &:active {
+    background: $button-active-blue;
+    } */
+    /* @import url(https://fonts.googleapis.com/css?family=Roboto:500); */
+    .select{
+        text-align: center;
+        /* margin-left: 30px; */
+        margin-top: 20px;
+
+    }
+    select{
+        border: 0px dotted;
+        font-size: 16px;
+        background-color: beige;
+        padding-left: 10px;
+        border-radius: 10px;
+        width: 305px;
+        height: 35px;
+    }
+</style>
+<body>
+   <div class="box-1">
+    <div class="box-2"><h1>(❁´◡`❁)</h1><hr>
+        <div class="nav1"><pre>Sign In to The Bharat Library</pre>
+        </div>
+        <a href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&hl=en_GB&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1945903825%3A1700463638121184&theme=glif"><div class="btn">
+        <div>
+        <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+        </div>
+        <h6><b>Sign in with google</b></h6></a>
+        </div>
+        <div class="select">
+            <select name="" id="">
+                <option value="">Students</option>
+                <option value="">Faculity</option>
+                <option value="">Admin</option>
+            </select>
+        </div>
+    <div class="search1">
+        <label for="">Username or Email</label>
+        <input type="text" placeholder="Phone number, username, or email">
+    
+        <label for="">Password</label>
+        <input type="password" placeholder="Password">
+    </div>
+    <button>Sign In</button><br>
+    <div class="reset"><a href="https://www.google.com/"><h4>Forgot password ?</h4></a>
+        <a href="signup.html"><h5>Sign up</h5></a>
+            </div>
+
+    </div>
+    </div>
+    </div>
+   </div>
+   
+</body>
+</html>

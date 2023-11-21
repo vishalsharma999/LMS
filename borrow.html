@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borrow</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    .first{
+        background-color: blanchedalmond;
+        width: 100%;
+        height: 750px;
+
+    }
+    .sec1{
+        background-color: beige;
+        width: 60%;
+        height: 550px;
+        border-radius: 20px;
+        border: 2px solid black;
+        margin-top: 50px;
+        margin-left: 20%;
+        /* text-align: center; */
+    }
+    .sec1 h1{
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+    hr{
+        margin-top: 10px;
+    }
+    .btn{
+    margin-top: 10px;
+    margin-left:30px;
+    width: 305px;
+    height: 42px;
+    border: 1px solid black;
+    border-radius: 20px;
+    /* background-color: $google-blue;
+    border-radius: 20px;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.25); */
+    }
+    .google-icon {
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 11px;
+    width: 22px;
+    height: 22px;
+    }
+    h6{
+    /* margin-top: 20px; */
+    padding-top:10px;
+    font-size: 17px;
+    margin-left: 90px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .bbttnn{
+        margin-top: 20px;
+        margin-left: 10%;
+        display: flex;
+    }
+    input{
+        width: 300px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 40px;
+        margin-left:10% ;
+        border: 0px solid wheat;
+        padding-left: 10px;
+    }
+    /* ::placeholder{
+        padding-left: 10px;
+    } */
+    button{
+        font-weight: bold;
+        font-size: 16px;
+        width: 700px;
+        height: 35px;
+        background-color: rgb(44, 83, 255);
+        border-radius: 10px;
+        margin-top: 40px;
+        margin-left: 10%;
+        color: aliceblue;
+        border: 2px dotted rgb(233, 157, 15);
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: blueviolet;
+    }
+    select{
+        width: 310px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 40px;
+        margin-left: 10%;
+        border: 0px solid wheat;
+        /* padding-left: 20px; */
+        padding-left: 10px;
+        /* padding-right: 20px; */
+
+    }
+    .btnn button{
+        margin-top: 20px;
+    }
+</style>
+<body>
+    <div class="first"><h1>Borrow Books</h1>
+        <div class="sec1"><h1>Borrowing Books Through The Bharat Library</h1><hr>
+            <div class="bbttnn">
+            <a href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&hl=en_GB&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1945903825%3A1700463638121184&theme=glif"><div class="btn">
+                <div>
+                <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+                </div>
+                <h6><b>Sign in with google</b></h6></a>
+                </div>
+                <a href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&hl=en_GB&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1945903825%3A1700463638121184&theme=glif"><div class="btn">
+                    <div>
+                    <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+                    </div>
+                    <h6><b>Sign up with google</b></h6></a>
+                </div>
+                </div>
+                <input type="text" placeholder="Library ID">
+                <input type="password" placeholder="PIN"><br>
+                <input type="text" placeholder="&#8377;50.00">
+                <input type="text" placeholder="Books ID">
+                <select name="" id="">
+                    <option value="Banking Card">Banking Card</option>
+                    <option value="UPI">UPI</option>
+                    <option value="Mobile Wallets">Mobile Wallets</option>
+                    <option value="Internet Banking">Internet Banking</option>
+                </select>
+                <input type="text" name="" id="" placeholder="Card Number">
+                <Button>Borrow</Button>
+                <div class="btnn">
+                    <button>Cancel</button>
+                </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
